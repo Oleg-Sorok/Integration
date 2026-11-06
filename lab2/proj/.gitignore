@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+orders.db
+forecast-service/artifacts/
+forecast-service/data/*.csv
+secrets/*
+!secrets/*.example
+!secrets/README.md
+!secrets/.gitkeep

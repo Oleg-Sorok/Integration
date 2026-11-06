@@ -1,0 +1,12 @@
+.env
+secrets/db_password
+secrets/jwt_secret_key
+uv.lock.bak
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.parquet
+*.csv
+artifacts/

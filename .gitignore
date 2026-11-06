@@ -1,0 +1,14 @@
+﻿**/.env
+**/.env.*
+**/secrets/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/mlruns/
+**/mlartifacts/
+**/artifacts/
+**/node_modules/
+**/*.pyc
+**/*.pkl
+**/*.log
+!**/.env.example

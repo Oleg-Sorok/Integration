@@ -1,0 +1,461 @@
+﻿[
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 1",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 2",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 3",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 4",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 5",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 6",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 7",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 8",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 9",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 10",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 11",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 12",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 13",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 14",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 15",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 16",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 17",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 18",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 19",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 20",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 21",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 22",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 23",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 24",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 25",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 26",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 27",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 28",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 29",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 30",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 31",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 32",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 33",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 34",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 35",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 36",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 37",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 38",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 39",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 40",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 41",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 42",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 43",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 44",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 45",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 46",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 47",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 48",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 49",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 50",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Limit Test 51",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    }
+]

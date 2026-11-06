@@ -1,0 +1,10 @@
+secrets/
+.env
+.venv/
+.git/
+__pycache__/
+*.pyc
+*.docx
+*.zip
+*.pdf
+artifacts/

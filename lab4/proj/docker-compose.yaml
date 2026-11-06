@@ -1,0 +1,110 @@
+name: proj
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: orders
+      POSTGRES_DB: orders
+      POSTGRES_PASSWORD_FILE: /run/secrets/db_password
+    secrets: [db_password]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./postgres-init/01-mlflow.sql:/docker-entrypoint-initdb.d/01-mlflow.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U orders -d orders"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  mlflow-db-init:
+    image: postgres:16
+    depends_on:
+      postgres: {condition: service_healthy}
+    secrets: [db_password]
+    tmpfs: [/tmp]
+    volumes:
+      - ./postgres-init/create_mlflow.sh:/opt/create_mlflow.sh:ro
+    entrypoint: ["/bin/sh", "/opt/create_mlflow.sh"]
+    restart: "no"
+  mlflow:
+    image: house-price-mlflow:v3.1.0
+    build:
+      context: .
+      dockerfile: mlflow-server/Dockerfile
+    depends_on:
+      mlflow-db-init: {condition: service_completed_successfully}
+    secrets: [db_password]
+    volumes: [mlartifacts:/mlartifacts]
+    ports: ["127.0.0.1:${MLFLOW_PORT:-5000}:5000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:5000/', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 24
+    restart: unless-stopped
+  redis:
+    image: redis:7.4-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes: [redisdata:/data]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 15
+    restart: unless-stopped
+  orders-api:
+    build: {context: ., dockerfile: orders-service/Dockerfile}
+    environment: &orders_env
+      POSTGRES_USER: orders
+      POSTGRES_DB: orders
+      REDIS_URL: redis://redis:6379/0
+      FORECAST_URL: http://forecast-api:8001
+      FORECAST_TIMEOUT: ${FORECAST_TIMEOUT:-3.0}
+      BATCH_MAX_ITEMS: ${BATCH_MAX_ITEMS:-50}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-30}
+    secrets: [db_password, jwt_secret_key]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    ports: ["127.0.0.1:${ORDERS_PORT:-8000}:8000"]
+    restart: unless-stopped
+  orders-worker:
+    build: {context: ., dockerfile: orders-service/Dockerfile}
+    command: ["rq", "worker", "pricing", "--url", "redis://redis:6379/0"]
+    environment: *orders_env
+    secrets: [db_password]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    restart: unless-stopped
+  forecast-api:
+    build: {context: ., dockerfile: forecast-service/Dockerfile}
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      MODEL_NAME: ${MODEL_NAME:-house-price}
+      MODEL_ALIAS: ${MODEL_ALIAS:-prod}
+    depends_on:
+      mlflow: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:8001/health', timeout=4)"]
+      interval: 8s
+      timeout: 5s
+      retries: 15
+    restart: "no" # important: fail-fast when @prod does not exist
+  trainer:
+    profiles: [train]
+    build: {context: ., dockerfile: training_service/Dockerfile}
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      MLFLOW_EXPERIMENT_NAME: house-price
+      MODEL_NAME: house-price
+      N_TRIALS: ${N_TRIALS:-20}
+    depends_on:
+      mlflow: {condition: service_healthy}
+    restart: "no"
+secrets:
+  db_password: {file: ./secrets/db_password}
+  jwt_secret_key: {file: ./secrets/jwt_secret_key}
+volumes:
+  pgdata: {name: proj_pgdata}
+  mlartifacts:
+  redisdata:

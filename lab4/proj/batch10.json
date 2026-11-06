@@ -1,0 +1,92 @@
+﻿[
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 1",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1600,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 2",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1700,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 3",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1800,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 4",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  1900,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 5",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  2000,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 6",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  2100,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 7",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  2200,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 8",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  2300,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 9",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  2400,
+        "year_built":  2005
+    },
+    {
+        "overall_qual":  7,
+        "total_bsmt_sf":  1000,
+        "client_name":  "Lab4 Batch 10",
+        "garage_area":  500,
+        "ms_zoning":  "RL",
+        "gr_liv_area":  2500,
+        "year_built":  2005
+    }
+]

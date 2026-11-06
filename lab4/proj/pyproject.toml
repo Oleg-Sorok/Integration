@@ -1,0 +1,37 @@
+[project]
+name = "house-price-integration-lab4"
+version = "0.4.0"
+description = "Microservice MLflow registry + RQ worker integration lab"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi==0.115.12",
+  "uvicorn==0.34.2",
+  "pydantic==2.11.4",
+  "sqlalchemy==2.0.41",
+  "psycopg[binary]==3.2.9",
+  "httpx==0.28.1",
+  "PyJWT==2.10.1",
+  "pwdlib[argon2]==0.2.1",
+  "python-multipart==0.0.20",
+  "redis==6.2.0",
+  "rq==2.3.3",
+  "tenacity>=9,<10",
+]
+[project.optional-dependencies]
+serving = [
+  "mlflow==3.1.0",
+  "scikit-learn==1.6.1",
+  "pandas==2.2.3",
+  "xgboost==2.1.4",
+  "numpy==2.2.6",
+]
+training = [
+  "mlflow==3.1.0",
+  "scikit-learn==1.6.1",
+  "pandas==2.2.3",
+  "xgboost==2.1.4",
+  "numpy==2.2.6",
+  "optuna==4.2.1",
+  "matplotlib==3.10.3",
+  "pyarrow==20.0.0",
+]
